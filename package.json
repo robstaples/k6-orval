@@ -4,7 +4,7 @@
   "description": "test to create a load test with orval",
   "main": "script.js",
   "scripts": {
-    "k6": "k6 run script.ts",
+    "k6": "k6 run src/contact.ts",
     "bundle": "webpack",
     "codegen": "orval --config ./orval.config.ts"
   },
